@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <p>
+      paeckchen (german for small parcel) is an incremental, fast and efficient JavaScript module bundler doing one thing well.
+    </p>
+    <p class="text-muted">
+      <small>Most JavaScript module bundlers do a lot of things – being plugin pipelines, fulfilling development setup wishes, being development servers and so on. This breadth of features inevitably comes with tradeoffs.</small>
+    </p>
+    <p class="text-muted">
+      <small>paeckchen on the other hand is designed to do exactly one thing: It bundles your JavaScript modules. This focus allows paeckchen to do its job fast and efficiently.</small>
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="https://github.com/paeckchen/paeckchen" role="button">Learn more &raquo;</a></p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>ES2015 module support</h2>
+      <p>
+        paeckchen is able to understand ES2015 module syntax. This means you do not need to transpile your
+        sources before bundling if you perfer to use ES2015 modules.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>Incremental bundling</h2>
+      <p>
+        Using the abstract syntax tree (AST) as cache structure paeckchen is really fast with updating the bundle
+        contents.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>SourceMaps</h2>
+      <p>
+        For easier debugging bundled code source mapping is included.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include footer.html %}
+</div>

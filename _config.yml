@@ -1,0 +1,8 @@
+# Site settings
+title: paeckchen
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
